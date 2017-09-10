@@ -26,9 +26,6 @@ include device/samsung/zero-common/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte
 
-# Include path
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerofltexx/include
-
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_zerofltexx_defconfig
 
